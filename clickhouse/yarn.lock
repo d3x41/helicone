@@ -2,20 +2,14 @@
 # yarn lockfile v1
 
 
-"@clickhouse/client@^0.0.14":
-  version "0.0.14"
-  resolved "https://registry.yarnpkg.com/@clickhouse/client/-/client-0.0.14.tgz#7f622102e6a8a82d60b82cbfe51a9cbf306cefbb"
-  integrity sha512-JkqPN0PhHyvf+jvPiD50LdXtemwJ+GZxDdWs0ysEL1qnVduDyvudzUECSqa29TG6Ho2NUFAEf5XjeUb+dMaT8A==
+"@clickhouse/client-common@0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@clickhouse/client-common/-/client-common-0.3.1.tgz#25db4d5fc4d2d01a57e941afc2482c4330d5e6ea"
+  integrity sha512-SXErzkCLLp/cRs2P8ihEgOiz1D0RMcQGcccnxrU5+DKWpYMu5/ZR48gBLaUVpVg/hXdBR/9n9XH8CB8d1xKiuQ==
+
+"@clickhouse/client@^0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@clickhouse/client/-/client-0.3.1.tgz#33122bb9e058609282142fa75e4b79c47210ec2e"
+  integrity sha512-5ywbK3oJJ8HIMzSZ6qJAhr6SyjmaBLy9fnVrLdacnZpFhD8j2RMKyM9yu3kAOzCF2HhFbdTPM/+KVWTpKjJlpA==
   dependencies:
-    node-abort-controller "^3.0.1"
-    uuid "^9.0.0"
-
-node-abort-controller@^3.0.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/node-abort-controller/-/node-abort-controller-3.1.1.tgz#a94377e964a9a37ac3976d848cb5c765833b8548"
-  integrity sha512-AGK2yQKIjRuqnc6VkX2Xj5d+QW8xZ87pa1UK6yA6ouUyuxfHuMP6umE5QK7UmTeOAymo+Zx1Fxiuw9rVx8taHQ==
-
-uuid@^9.0.0:
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/uuid/-/uuid-9.0.0.tgz#592f550650024a38ceb0c562f2f6aa435761efb5"
-  integrity sha512-MXcSTerfPa4uqyzStbRoTgt5XIe3x5+42+q1sDuy3R5MDk66URdLMOZe5aPX/SQd+kuYAh0FdP/pO28IkQyTeg==
+    "@clickhouse/client-common" "0.3.1"
